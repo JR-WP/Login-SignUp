@@ -42,6 +42,7 @@ if(checker(userN,pw) == true)
 }
 else
 {
+    system("cls");
     goto tryAgain; //label used to send the user back to the start of the newUser().
 }
     return "";
