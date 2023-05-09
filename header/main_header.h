@@ -11,7 +11,7 @@ for this program to work.
 #include <string>
 #include <cstring>
 #include <fstream>
-
+#include <cstdlib> 
 //Linked files together
 #include "newUser.cpp"
 #include "eUser.cpp"
