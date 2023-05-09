@@ -14,6 +14,7 @@ return 0;
 std :: string intro(void)
 {
     WrongInput:
+    system("cls");
 std :: cout << "Are you a new or existing user? \n";
 std :: cout << "Enter 'new' for a new user and 'curr' for an existing user \n";
 std :: string UI{};
@@ -30,6 +31,7 @@ if(UI == "new")
         eUser();
     }
         else
+        system("cls");
         goto WrongInput;
 
 return "";
